@@ -20,9 +20,9 @@ rbac:
   serviceAccountName: default
 
 image:
-  repository: jakubkulhan/ingress-merge
+  repository: kinvey/ingress-merge
   tag: latest
-  pullPolicy: Always
+  pullPolicy: Never
 
 resources: {}
 
